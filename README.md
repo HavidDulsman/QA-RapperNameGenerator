@@ -18,7 +18,9 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 4. [Risk Assessment]()
 
 ## Brief
-2nd SFIA project for QA Consulting
-First push from VSC to see if everything works ok?
+As quoted from 'QAC - Practical Project Specification (DevOps):
 
+    " At itscore you are creating an application that generates “Objects” upon a set of 
+    predefined rules.  These “Objects” can be from whatever domain you wish. "
 ### Requirements
+Some of the requirements for a 'Minimal Viable Product' included:
