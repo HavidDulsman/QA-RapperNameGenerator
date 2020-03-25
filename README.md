@@ -30,5 +30,6 @@ Some of the requirements for a 'Minimal Viable Product' included:
     * Service 2/3: Used to generate 'Objects'
     * Service 4: Used to create an 'Object' based of the results of Services 2 and 3 using interesting logic
  + 2 Different implementations between Services 2, 3 and 4
+ + Deployment using containerisation and a orchestration tool
  + Advanced CI practices using Jenkins and Ansible
  + Refined skills of services and tools used in the previous project
