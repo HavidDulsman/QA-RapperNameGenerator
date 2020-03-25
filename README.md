@@ -9,6 +9,13 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 
 1. [Brief]()
     + [Requirements]()
+2. [Project Plan]()
+    + [Kanban Board]()
+3. [Architechure]()
+    + [Entity Relationship Diagram]()
+    + [Use Case Diagram]()
+    + [Multi Tier Architecture Diagram]()
+4. [Risk Assessment]()
 
 ## Brief
 2nd SFIA project for QA Consulting
