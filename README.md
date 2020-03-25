@@ -33,3 +33,16 @@ Some of the requirements for a 'Minimal Viable Product' included:
  + Deployment using containerisation and a orchestration tool
  + Advanced CI practices using Jenkins and Ansible
  + Refined skills of services and tools used in the previous project
+
+## Project Plan
+### Kanban Board
+Once again, my project will utilise a kanban board to affectly produce a task backlog based of the User Stories and the requirements for a Minimal Viable Product. The lay out stay the same, moving from left to right.
+
+The Project will also make use of the MoSCoW Prioritisation method to categorise the importance of tasks and features.
+
+## Architecture
+For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
+
+## Risk Assessment
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using this link.
+
