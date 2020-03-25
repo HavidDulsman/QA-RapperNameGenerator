@@ -24,3 +24,11 @@ As quoted from 'QAC - Practical Project Specification (DevOps):
     predefined rules.  These “Objects” can be from whatever domain you wish. "
 ### Requirements
 Some of the requirements for a 'Minimal Viable Product' included:
+ - Create a micro-service orientated architecture for a application:
+        + Service 1: Used to render Jinja2 templates for interaction, connect to the other services, and finally persisting 
+          some data into a SQL Database
+        + Service 2/3: Used to generate 'Objects'
+        + Service 4: Used to create an 'Object' based of the results of Services 2 and 3 using interesting logic
+ - 2 Different implementations between Services 2, 3 and 4
+ - Advanced CI practices using Jenkins and Ansible
+ - Refined skills of services and tools used in the previous project
