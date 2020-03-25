@@ -39,7 +39,17 @@ Some of the requirements for a 'Minimal Viable Product' included:
 Once again, my project will utilise a kanban board to affectly produce a task backlog based of the User Stories and the requirements for a Minimal Viable Product. The lay out stay the same, moving from left to right.
 
 The Project will also make use of the MoSCoW Prioritisation method to categorise the importance of tasks and features.
+#### Sprint 1:
+![Sprint 1](https://i.imgur.com/rZqK3tv.png)
+#### Sprint 2:
 
+#### Sprint 3:
+
+#### Sprint 4:
+
+#### Sprint 5:
+
+#### Completition:
 ## Architecture
 For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
 
