@@ -40,6 +40,7 @@ Once again, my project will utilise a kanban board to affectly produce a task ba
 
 The Project will also make use of the MoSCoW Prioritisation method to categorise the importance of tasks and features.
 #### Sprint 1:
+sprint 1 stuff
 ![Sprint 1](https://i.imgur.com/rZqK3tv.png)
 #### Sprint 2:
 
