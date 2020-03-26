@@ -1,0 +1,5 @@
+FROM python:alpine3.11
+RUN mkdir /opt/SFIA2/
+COPY . /opt/SFIA2/
+WORKDIR /opt/SFIA2/
+ENTRYPOINT [ "app.py" ]
