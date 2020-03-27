@@ -43,7 +43,7 @@ The Project will also make use of the MoSCoW Prioritisation method to categorise
 sprint 1 stuff
 ![Sprint 1](https://i.imgur.com/rZqK3tv.png)
 #### Sprint 2:
-
+![Sprint 2](https://i.imgur.com/EVWX4AT.png)
 #### Sprint 3:
 
 #### Sprint 4:
