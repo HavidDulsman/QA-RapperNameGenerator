@@ -1,20 +1,40 @@
 from flask import Flask, request, render_template, url_for, redirect
-from flask_mysqldb import MySQL
 from application import app
+from flask_mysqldb import MySQL
 import requests
 import random
 
-#MySQl Config
-app.config['MYSQL_HOST'] = '35.246.123.192'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'rappernamegen'
+mysql = MySQL(app)
 
-@app.route('/',methods=['GET'])
+@app.route('/', methods=['GET', 'POST'])
+def index():
+        if request.method == 'POST':
+                response = requests.get('http://localhost:5003/generated3')
+                generatedname = response.text
+                print(generatedname)
+                details = request.form
+                username = details['username']
+                print(username)
+                cur = mysql.connection.cursor()
+                cur.execute("INSERT INTO entries(name_old, name_new) VALUES (%s, %s)", (username,generatedname))
+                mysql.connection.commit()
+                cur.close()
+                return render_template('home.html',generatedname = generatedname, title = 'Home')
+        else:
+                return render_template("index.html")
+
+@app.route('/home',methods=['GET'])
 def home():
-        response = requests.get('http://localhost:5003/generated3')
-        print("hello!")
-        generatedname = response.text
-        print(generatedname)
+        if request.method == 'POST':
+                response = requests.get('http://localhost:5003/generated3')
+                generatedname = response.text
+                print(generatedname)
+                details = request.form
+                username = details['username']
+                print(username)
+                cur = mysql.connection.cursor()
+                cur.execute("INSERT INTO entries(name_old, name_new) VALUES (%s, %s)", (username,generatedname))
+                mysql.connection.commit()
+                cur.close()
         return render_template('home.html',generatedname = generatedname, title = 'Home')
 
