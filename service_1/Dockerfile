@@ -1,5 +1,5 @@
 FROM python:alpine
-RUN mkdir ./opt/service_1
+RUN mkdir ./opt/service1
 COPY . /opt/service1
 WORKDIR /opt/service1
 RUN set -e; \
