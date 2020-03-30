@@ -7,7 +7,7 @@ import random
 #MySQl Config
 app.config['MYSQL_HOST'] = '35.246.123.192'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Duddybear12'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'rappernamegen'
 
 @app.route('/',methods=['GET'])
