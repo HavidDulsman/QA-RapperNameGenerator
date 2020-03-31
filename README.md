@@ -64,3 +64,8 @@ Many of the same risks appear on this 'RA' as the last project, but some of the 
 ### After Project Completition 
 This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included
 
+## Authors
+David Hulsman
+
+## Acknowledgements
+My Family for supporting me during this training period, as well as Syed for his laidback, but also enjoyable and informative training sessions 
