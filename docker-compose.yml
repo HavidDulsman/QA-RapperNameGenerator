@@ -1,0 +1,34 @@
+version: 3
+services:
+    front_end:
+        build:
+            context: ./service_one
+        ports:
+            - target: 5000
+            - published: 5000
+            - protocol: tcp
+        container_name: service_one
+    part_one:
+        build:
+            context: ./service_two
+        ports:
+            - target: 5001
+            - published: 5001
+            - protocol: tcp
+        container_name: service_two
+    part_two:
+        build:
+            context: ./service_three
+        ports:
+            - target: 5002
+            - published: 5002
+            - protocol: tcp
+        container_name: service_three
+    end_product:
+        build:
+            context: ./service_four
+        ports:
+            - target: 5003
+            - published: 5003
+            - protocol: tcp
+        container_name: service_four
