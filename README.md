@@ -45,8 +45,9 @@ sprint 1 stuff
 #### Sprint 2:
 ![Sprint 2](https://i.imgur.com/EVWX4AT.png)
 #### Sprint 3:
-
+![Sprint 3](https://i.imgur.com/wbuzwte.png)
 #### Sprint 4:
+
 
 #### Sprint 5:
 
