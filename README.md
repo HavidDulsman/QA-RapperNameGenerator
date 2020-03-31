@@ -55,5 +55,5 @@ sprint 1 stuff
 For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
 
 ## Risk Assessment
-A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using this link.
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Due to the complexity and detail of my risk assessment, i have opted to include it as it own file which can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk.xlsx)
 
