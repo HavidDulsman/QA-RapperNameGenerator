@@ -14,4 +14,3 @@ app.config['MYSQL_DB'] = os.environ.get('MYSQLDB')
 from application import routes
 
     
-

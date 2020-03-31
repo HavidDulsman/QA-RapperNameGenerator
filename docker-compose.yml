@@ -1,34 +1,27 @@
-version: 3
+version: '3.7'
 services:
     front_end:
         build:
-            context: ./service_one
+            context: ./service_1
         ports:
-            - target: 5000
-            - published: 5000
-            - protocol: tcp
-        container_name: service_one
+            - "5000:5000"
+        environment: 
+            - MYSQLHOST=${MYSQLHOST}
+            - MYSQLUSER=${MYSQLUSER}
+            - MYSQLPASSWORD=${MYSQLPASSWORD}
+            - MYSQLDB=${MYSQLDB}
     part_one:
         build:
-            context: ./service_two
+            context: ./service_2
         ports:
-            - target: 5001
-            - published: 5001
-            - protocol: tcp
-        container_name: service_two
+            - "5001:5001"
     part_two:
         build:
-            context: ./service_three
+            context: ./service_3
         ports:
-            - target: 5002
-            - published: 5002
-            - protocol: tcp
-        container_name: service_three
+            - "5002:5002"
     end_product:
         build:
-            context: ./service_four
+            context: ./service_4
         ports:
-            - target: 5003
-            - published: 5003
-            - protocol: tcp
-        container_name: service_four
+            - "5003:5003"

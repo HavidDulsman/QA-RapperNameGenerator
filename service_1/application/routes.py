@@ -9,7 +9,7 @@ mysql = MySQL(app)
 @app.route('/', methods=['GET', 'POST'])
 def index():
         if request.method == 'POST':
-                response = requests.get('http://localhost:5003/generated3')
+                response = requests.get('http://rappernamegenerator_end_product_1:5003/generated3')
                 generatedname = response.text
                 print(generatedname)
                 details = request.form
@@ -26,7 +26,7 @@ def index():
 @app.route('/home',methods=['GET'])
 def home():
         if request.method == 'POST':
-                response = requests.get('http://localhost:5003/generated3')
+                response = requests.get('http://rappernamegenerator_end_product_1:5003/generated3')
                 generatedname = response.text
                 print(generatedname)
                 details = request.form
