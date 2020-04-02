@@ -1,8 +1,7 @@
 version: '3.7'
 services:
     front_end:
-        build:
-            context: ./service_1
+        image: dhulsman/service_1:latest
         ports:
             - "5000:5000"
         environment: 
@@ -10,18 +9,34 @@ services:
             - MYSQLUSER=${MYSQLUSER}
             - MYSQLPASSWORD=${MYSQLPASSWORD}
             - MYSQLDB=${MYSQLDB}
+        deploy:
+            replicas: 3
+        networks:
+            - service_network
     part_one:
-        build:
-            context: ./service_2
+        image: dhulsman/service_2:latest
         ports:
             - "5001:5001"
+        deploy:
+            replicas: 3
+        networks:
+            - service_network
     part_two:
-        build:
-            context: ./service_3
+        image: dhulsman/service_3:latest
         ports:
             - "5002:5002"
+        deploy:
+            replicas: 3
+        networks:
+            - service_network
     end_product:
-        build:
-            context: ./service_4
+        image: dhulsman/service_4:latest
         ports:
             - "5003:5003"
+        deploy:
+            replicas: 3
+        networks:
+            - service_network
+networks:
+    service_network:
+        driver: overlay
