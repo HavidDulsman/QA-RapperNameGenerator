@@ -1,0 +1,1 @@
+docker stack deploy --compose-file ../services/docker-compose.yml rappperstack

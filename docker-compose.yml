@@ -2,8 +2,6 @@ version: '3.7'
 services:
     front_end:
         image: dhulsman/service_1:latest
-        ports:
-            - "5000:5000"
         environment: 
             - MYSQLHOST=${MYSQLHOST}
             - MYSQLUSER=${MYSQLUSER}
@@ -15,28 +13,35 @@ services:
             - service_network
     part_one:
         image: dhulsman/service_2:latest
-        ports:
-            - "5001:5001"
         deploy:
             replicas: 3
         networks:
             - service_network
     part_two:
         image: dhulsman/service_3:latest
-        ports:
-            - "5002:5002"
         deploy:
             replicas: 3
         networks:
             - service_network
     end_product:
         image: dhulsman/service_4:latest
-        ports:
-            - "5003:5003"
         deploy:
             replicas: 3
         networks:
             - service_network
+    nginx_for_rapper:
+        image: dhulsman/service_nginx:latest
+        ports:
+            - "80:80"
+        networks:
+            - service_network
+        depends_on: 
+            - front_end
+            - part_one
+            - part_two
+            - end_product
+        deploy:
+            replicas: 3
 networks:
     service_network:
         driver: overlay
