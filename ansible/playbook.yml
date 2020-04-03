@@ -1,0 +1,14 @@
+- hosts: node
+  become: true
+  vars:
+    application: docker-ce
+  tasks:
+  - name: Install "{{ application }}"
+    apt:
+      name: "{{ application }}"
+      state: latest
+      update_cache: true
+  - name: start "{{ application }}" service
+    service:
+      name: docker
+      state: started
