@@ -94,11 +94,13 @@ This version of the risk assessment includes the final review of each item and h
     - **Jinja2:** Pass variables between Python and HTML*
     - **MySQL:** Allows for access of SQL Databases, as well as query-based functions*
 * **Trello*:** Kanban board and Project tracking*
-* **Docker:**
-* **Dockerhub:**
-* **Ansible: **
+* **Docker:** Containerisation
+* **Docker Swarm + Stack:**  Docker Swarm
+* **Dockerhub:** Version Control for Docker Images and Containers
+* **Ansible:** Configuration Management
+* **NGINX:** Load Balancing
 
-*: technologies and tools also used in the first project
+*: Technologies and tools also used in the first project
 
 ## Authors
 David Hulsman
