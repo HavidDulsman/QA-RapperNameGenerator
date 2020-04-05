@@ -67,7 +67,10 @@ sprint 1 stuff
 For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
 ### Entity Relationship Diagram
 ### Use Case Diagram
-### 
+### Service Architecture Diagram
+#### Service 1
+#### Service 2 + 3
+#### Service 4
 
 ## Risk Assessment
 ### Pre/Early Developement
