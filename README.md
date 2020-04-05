@@ -32,7 +32,7 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 ## Brief
 As quoted from 'QAC - Practical Project Specification (DevOps):
 
-    " At itscore you are creating an application that generates “Objects” upon a set of 
+    " At its core you are creating an application that generates “Objects” upon a set of 
     predefined rules.  These “Objects” can be from whatever domain you wish. "
 ### Requirements
 Some of the requirements for a 'Minimal Viable Product' included:
