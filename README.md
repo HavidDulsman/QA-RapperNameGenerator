@@ -95,7 +95,7 @@ This version of the risk assessment includes the final review of each item and h
     - **MySQL:** Allows for access of SQL Databases, as well as query-based functions*
 * **Trello:** Kanban board and Project tracking*
 * **Docker:** Containerisation
-* **Docker Swarm + Stack:**  Docker Swarm
+* **Docker Swarm + Stack:**  Orchestration
 * **Dockerhub:** Version Control for Docker Images and Containers
 * **Ansible:** Configuration Management
 * **NGINX:** Load Balancing
