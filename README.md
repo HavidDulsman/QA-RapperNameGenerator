@@ -85,15 +85,15 @@ This version of the risk assessment includes the final review of each item and h
 ### List of used technologies and languages
 * **GitHub:** Version Control System*
 * **Jenkins:** Continuous Intergration Server*
-* **Google Cloud Services*:** Live Environment + SQL Database Host*
-* **Visual Studio Code*:** IDE for frontend and backend development. Used the following languages:
+* **Google Cloud Services:** Live Environment + SQL Database Host*
+* **Visual Studio Code:** IDE for frontend and backend development. Used the following languages:
     - **Python 3:** Logic and Functionality*
     - **HTML:** Front-end GUI design*
     - **CSS:** Styling and design of front-end GUI*
     - **Flask:** Connects front-end and back-end*
     - **Jinja2:** Pass variables between Python and HTML*
     - **MySQL:** Allows for access of SQL Databases, as well as query-based functions*
-* **Trello*:** Kanban board and Project tracking*
+* **Trello:** Kanban board and Project tracking*
 * **Docker:** Containerisation
 * **Docker Swarm + Stack:**  Docker Swarm
 * **Dockerhub:** Version Control for Docker Images and Containers
