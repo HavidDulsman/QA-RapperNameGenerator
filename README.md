@@ -98,7 +98,7 @@ This version of the risk assessment includes the final review of each item and h
 * **Dockerhub:**
 * **Ansible: **
 
-* :technologies and tools also used in the first project
+*: technologies and tools also used in the first project
 
 ## Authors
 David Hulsman
