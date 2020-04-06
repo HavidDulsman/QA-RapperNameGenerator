@@ -14,13 +14,25 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 3. [Architechure]()
     + [Entity Relationship Diagram]()
     + [Use Case Diagram]()
-    + [Multi Tier Architecture Diagram]()
+    + [Service Architecture Diagram]()
 4. [Risk Assessment]()
+    + [Pre/Early Development]()
+    + [After Project Completition]()
+5. [Deployment]()
+    + [List of techonologies used]()
+6. [Testing]()
+    + [Pytest report]()
+    + [Coverage report]()
+7. [Comparison to Initial Design]()
+8. [Project retrospective]()
+    + [Notable Achievements]()
+    + [Project Shortcomings]()
+    + [Future Improvements]()
 
 ## Brief
 As quoted from 'QAC - Practical Project Specification (DevOps):
 
-    " At itscore you are creating an application that generates “Objects” upon a set of 
+    " At its core you are creating an application that generates “Objects” upon a set of 
     predefined rules.  These “Objects” can be from whatever domain you wish. "
 ### Requirements
 Some of the requirements for a 'Minimal Viable Product' included:
@@ -47,13 +59,20 @@ sprint 1 stuff
 #### Sprint 3:
 ![Sprint 3](https://i.imgur.com/wbuzwte.png)
 #### Sprint 4:
-
-
+![Sprint 4](https://i.imgur.com/YQSgzkm.png)
 #### Sprint 5:
 
 #### Completition:
 ## Architecture
 For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
+### Entity Relationship Diagram
+One of the requirements for this project was to project the results of Service 4 into a SQl Database. Continuing with the **MoSCoW Method**, only 1 table will feature during my project due to the smaller scope of the project itself. Because of this, the sole table is a **Must Have** part of the project. It will store each item with a unique identifier, as well as VARCHAR columns for the old and new names made for each person
+![ERD](https://i.imgur.com/YDgi3RZ.png)
+### Use Case Diagram
+### Service Architecture Diagram
+#### Service 1
+#### Service 2 + 3
+#### Service 4
 
 ## Risk Assessment
 ### Pre/Early Developement
@@ -63,6 +82,30 @@ Many of the same risks appear on this 'RA' as the last project, but some of the 
 
 ### After Project Completition 
 This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included
+
+## Deployment
+
+![Deployment pipeline diagram of use softwares]()
+
+### List of used technologies and languages
+* **GitHub:** Version Control System*
+* **Jenkins:** Continuous Intergration Server*
+* **Google Cloud Services:** Live Environment + SQL Database Host*
+* **Visual Studio Code:** IDE for frontend and backend development. Used the following languages:
+    - **Python 3:** Logic and Functionality*
+    - **HTML:** Front-end GUI design*
+    - **CSS:** Styling and design of front-end GUI*
+    - **Flask:** Connects front-end and back-end*
+    - **Jinja2:** Pass variables between Python and HTML*
+    - **MySQL:** Allows for access of SQL Databases, as well as query-based functions*
+* **Trello:** Kanban board and Project tracking*
+* **Docker:** Containerisation
+* **Docker Swarm + Stack:**  Orchestration
+* **Dockerhub:** Version Control for Docker Images and Containers
+* **Ansible:** Configuration Management
+* **NGINX:** Load Balancing
+
+*: Technologies and tools also used in the first project
 
 ## Authors
 David Hulsman
