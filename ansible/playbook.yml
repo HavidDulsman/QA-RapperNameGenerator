@@ -1,14 +1,24 @@
-- hosts: node
+- name: install docker to worker nodes
+  hosts: servers
   become: true
-  vars:
-    application: docker-ce
-  tasks:
-  - name: Install "{{ application }}"
-    apt:
-      name: "{{ application }}"
-      state: latest
-      update_cache: true
-  - name: start "{{ application }}" service
-    service:
-      name: docker
-      state: started
+  roles:
+    - docker-installation
+
+- name: install docker to local manager node
+  hosts: localhost
+  become: true
+  roles:
+    - docker-installation
+
+- name: initialise docker swarm
+  hosts: localhost
+  become: true
+  roles:
+    - docker-swarm-init
+
+- name: add workers to the swarm
+  hosts: node
+  become: true
+  roles:
+    - docker-swarm-add-nodes
+    
