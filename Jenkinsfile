@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage(Enable Ansible And Docker Swarm){
+        stage(Enable Ansible){
             steps{
                 sh 'chmod +x ./script/*'
                 sh './script/ansible.sh'
