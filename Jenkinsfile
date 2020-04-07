@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage(Enable Ansible){
+        stage(Number1){
             steps{
                 sh 'chmod +x ./script/*'
                 sh './script/ansible.sh'
