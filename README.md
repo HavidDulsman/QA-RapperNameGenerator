@@ -11,6 +11,7 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
     + [Requirements]()
 2. [Project Plan]()
     + [Kanban Board]()
+    + [Feature Branch Model]()
 3. [Architechure]()
     + [Entity Relationship Diagram]()
     + [Service Architecture Diagram]()
@@ -61,8 +62,11 @@ sprint 1 stuff
 #### Sprint 4:
 ![Sprint 4](https://i.imgur.com/YQSgzkm.png)
 #### Sprint 5:
-
 #### Completition:
+#### Future Sprint
+![Future Sprint]()
+### Feature Branch Model
+![branches](https://i.imgur.com/MAvhgQz.png)
 ## Architecture
 For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
 ### Entity Relationship Diagram
