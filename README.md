@@ -68,6 +68,7 @@ sprint 1 stuff
 ### Feature Branch Model
 Building upon the feedback from my last project, i will be further utilising the feature branch system by incorporating branchs for each of the services. This not only allows me to effectively develop each service on its own, it also allows me to carefully manage the progression of each service. As there is only one of me developing this app, i might be of great use but allows me to prepare for a real world development environment
 ![branches](https://i.imgur.com/MAvhgQz.png)
+As each of the services are completed, the branches can be discarded. The developer branch however can be kept open however as more development can be made to the project outside of the live site if need be.
 
 ## Architecture
 For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
