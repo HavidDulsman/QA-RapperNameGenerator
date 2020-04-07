@@ -71,8 +71,11 @@ One of the requirements for this project was to project the results of Service 4
 ### Service Architecture Diagram
 ![Overall Diagram](https://i.imgur.com/GWoEZnq.png)
 #### Service 1
+![S1[(https://i.imgur.com/Nil4icp.png)
 #### Service 2 + 3
+![S23[(https://i.imgur.com/i8aNV94.png)
 #### Service 4
+![S4[(https://i.imgur.com/fIubh2M.png)
 ## Risk Assessment
 ### Pre/Early Developement
 A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Similar to the previous project, this too can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1.xlsx). 
