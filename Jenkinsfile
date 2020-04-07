@@ -9,6 +9,8 @@ pipeline {
             }
         stage(Deploy Docker Stack Service){
             steps{
+                sh './script/docker.sh'
+                sh 'echo "Stack Service Deployed"'
             }
         }
         stages(Create Development Environment){
