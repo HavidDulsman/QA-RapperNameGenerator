@@ -30,6 +30,7 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
     + [Notable Achievements]()
     + [Project Shortcomings]()
     + [Future Improvements]()
+10. [Installation Guide]()
 
 ## Brief
 As quoted from 'QAC - Practical Project Specification (DevOps):
@@ -146,6 +147,8 @@ If i had known earlier, I would have tried to implement more CRUD functionality 
 
 #### Selenium testing
 Yet again, i felt like the test portion of my project was lacking. I felt this time i might have been the simplicity of my project that might have been the reasoning. Selenium has been mentioned a couple of times since starting and i feel like if i learn how to use and implement it, it could have a massive impact into how i test the project.
+
+## Installation Guide
 
 ## Authors
 David Hulsman
