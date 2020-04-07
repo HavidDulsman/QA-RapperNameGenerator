@@ -82,7 +82,7 @@ A risk assessment was compiled to look and examine risk related to the project, 
 Many of the same risks appear on this 'RA' as the last project, but some of the reasonings and values of each have changed due to a change in working environment.
 
 ### After Project Completition 
-This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included
+This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included. New items are highlighted in Yellow. Access via [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1_FINAL_COMMENTS.xlsx).
 
 ## Deployment
 
