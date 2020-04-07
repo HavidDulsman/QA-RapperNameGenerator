@@ -23,8 +23,9 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 6. [Testing]()
     + [Pytest report]()
     + [Coverage report]()
-7. [Comparison to Initial Design]()
-8. [Project retrospective]()
+7. [How to setup]()
+8. [Comparison to Initial Design]()
+9. [Project retrospective]()
     + [Notable Achievements]()
     + [Project Shortcomings]()
     + [Future Improvements]()
@@ -106,6 +107,15 @@ This version of the risk assessment includes the final review of each item and h
 * **NGINX:** Load Balancing
 
 *: Technologies and tools also used in the first project
+
+## How to Setup
+
+## Comparisons to Original Design
+
+## Project retrospective
+### Notable Achievements
+### Project Shortcomings
+### Future Improvements
 
 ## Authors
 David Hulsman
