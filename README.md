@@ -116,6 +116,8 @@ This version of the risk assessment includes the final review of each item and h
 ### Notable Achievements
 ### Project Shortcomings
 ### Future Improvements
+#### More use of nodes
+The project challenged me to make use of multiple nodes and addresses to balance the load and learn distributing traffic as well as the security behind all of these methods. Whilst i had demonstrated this with a **Manager** and **Worker** node, i would have hoped to use more nodes to further demonstrate this way of thinking. 
 
 ## Authors
 David Hulsman
