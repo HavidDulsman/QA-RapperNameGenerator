@@ -115,9 +115,19 @@ This version of the risk assessment includes the final review of each item and h
 ## Project retrospective
 ### Notable Achievements
 ### Project Shortcomings
+#### Poor project scope
+As i had noting during the start of the project, this application would have been lighter with the focus being more on back-end automation and networking. Due to this, i was unable to expand my application in the later stages. I would have like to include some CRUD functionality, as well as some interesting styling and the project might be lacking due to their absense.
+
+#### 
 ### Future Improvements
 #### More use of nodes
-The project challenged me to make use of multiple nodes and addresses to balance the load and learn distributing traffic as well as the security behind all of these methods. Whilst i had demonstrated this with a **Manager** and **Worker** node, i would have hoped to use more nodes to further demonstrate this way of thinking. 
+The project challenged me to make use of multiple nodes and addresses to balance the load and learn distributing traffic as well as the security behind all of these methods. Whilst i had demonstrated this with a **Manager** and **Worker** node each, i would have hoped to use more nodes to further demonstrate this way of thinking. 
+
+#### CRUD Implementation
+If i had known earlier, I would have tried to implement more CRUD functionality into my works, but the current scope of my work didnt really allow me to full expand into these ideas.
+
+#### Selenium testing
+Yet again, i felt like the test portion of my project was lacking. I felt this time i might have been the simplicity of my project that might have been the reasoning. Selenium has been mentioned a couple of times since starting and i feel like if i learn how to use and implement it, it could have a massive impact into how i test the project.
 
 ## Authors
 David Hulsman
