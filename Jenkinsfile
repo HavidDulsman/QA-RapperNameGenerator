@@ -14,7 +14,7 @@ pipeline {
                 sh 'echo "Stack Service Deployed"'
             }
         }
-        stages(Number3){
+        stage(Number3){
             steps{
                 sh './script/before_installation.sh'
                 sh './script/run.sh'
