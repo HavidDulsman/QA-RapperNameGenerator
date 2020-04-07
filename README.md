@@ -87,6 +87,12 @@ Once input has been made, Services 2 and 3 will be contacted. These are pretty m
 #### Service 4
 Service 4 will take the results of Service 2 and 3 and merge them together creating a unique result! this result is then referenced in Service 1 where it can be displayed for the user to see!
 ![S4](https://i.imgur.com/fIubh2M.png)
+### System Security
+A massive focal point of this project was an emphasis on project security with various new tools and methods taught to allow us effectively hide certain information from others. With the introduction of **NGINX**, we are able to develop upstreams that listen for particular ports in use and redirect or hide them from the view of people outside our network. With port 5000 utilised by the front end service **(1)**, we must hide this from the viewing of outside users.
+
+Amongst this, we have also implemented stricter access to firewall rules, espcially with regards to the other ports. In the last project, we enabled all addresses **(0.0.0.0:0)** to have access to our project. This has been tightened, with only the development VMs having access during development.
+![nginx config](https://i.imgur.com/zDY8FT6.png)
+
 ## Risk Assessment
 ### Pre/Early Developement
 A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Similar to the previous project, this too can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1.xlsx). 
