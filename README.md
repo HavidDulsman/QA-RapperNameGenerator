@@ -71,6 +71,7 @@ One of the requirements for this project was to project the results of Service 4
 ![ERD](https://i.imgur.com/YDgi3RZ.png)
 ### Use Case Diagram
 ### Service Architecture Diagram
+![Overall Diagram](https://i.imgur.com/GWoEZnq.png)
 #### Service 1
 #### Service 2 + 3
 #### Service 4
