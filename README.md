@@ -71,10 +71,13 @@ One of the requirements for this project was to project the results of Service 4
 ### Service Architecture Diagram
 ![Overall Diagram](https://i.imgur.com/GWoEZnq.png)
 #### Service 1
+Service 1, otherwise know as the **front-end** is responsible for everything the user sees. Many of the tools used in the past project can be seen here, from HTML, Jinja2 and Flask. This will be used to display the results made in other services. My app will only start the service once a form has been submitted in the form of the users name. Also the SQL database isnt stored at this service, but does directly interact with service 1.
 ![S1](https://i.imgur.com/Nil4icp.png)
-#### Service 2 + 3
+#### Service 2 and 3
+Once input has been made, Services 2 and 3 will be contacted. These are pretty much identical as they both consist of Flask applications that store nothing but lists of words that can be put together to make a result.
 ![S23](https://i.imgur.com/i8aNV94.png)
 #### Service 4
+Service 4 will take the results of Service 2 and 3 and merge them together creating a unique result! this result is then referenced in Service 1 where it can be displayed for the user to see!
 ![S4](https://i.imgur.com/fIubh2M.png)
 ## Risk Assessment
 ### Pre/Early Developement
