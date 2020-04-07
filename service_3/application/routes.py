@@ -1,9 +1,13 @@
 from application import app
-import random 
+import random
+import csv
 
 @app.route('/generated2', methods=['GET'])
 def generated2():
-    list = ['DevOps Consultant', 'Coder', 'Pump', 'Medic', 'Shooter', 'Money', 'Lamborghini', 'Yeezy', 'Killer', 'Game', 'Driver', 'Man']
-    listcount = len(list)
-
-    return list[random.randrange(listcount - 1)]
+    number = random.randrange(0,15)
+    with open('/opt/service3/application/last.txt') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            lastname = str(row[number])
+    return lastname
+  

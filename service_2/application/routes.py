@@ -1,9 +1,12 @@
 from application import app
 import random
+import csv
 
 @app.route('/generated1', methods=['GET'])
 def generated1():
-    list = ['Lil','Big','The','Yung', 'Da','Dockta','Hot', 'Eazy', 'Almighty', 'Ol Dirty', 'Ghostface', 'Childish', 'Wonky', 'Crazy', 'Gucci', 'Red', 'West-side', 'East-side', 'South-side', 'North-side', 'Famous', 'Hungry', 'Sneaky', 'Sniper', 'Lethal']
-    listcount = len(list)
-
-    return list[random.randrange(listcount - 1)]
+    number = random.randrange(0,24)
+    with open('/opt/service2/application/first.txt') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        for row in csv_reader:
+            firstname = str(row[number])
+    return firstname
