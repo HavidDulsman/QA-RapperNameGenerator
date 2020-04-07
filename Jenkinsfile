@@ -7,6 +7,7 @@ pipeline {
                 sh './script/ansible.sh'
                 sh 'echo "Nodes linked and Docker Swarm Service Enabled"'
             }
+        }
         stage(Number2){
             steps{
                 sh './script/docker.sh'
