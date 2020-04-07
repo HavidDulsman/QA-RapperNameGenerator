@@ -13,7 +13,6 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
     + [Kanban Board]()
 3. [Architechure]()
     + [Entity Relationship Diagram]()
-    + [Use Case Diagram]()
     + [Service Architecture Diagram]()
 4. [Risk Assessment]()
     + [Pre/Early Development]()
@@ -69,13 +68,11 @@ For those have a cheeky look at my repo early, nothing here yet! Will it be big?
 ### Entity Relationship Diagram
 One of the requirements for this project was to project the results of Service 4 into a SQl Database. Continuing with the **MoSCoW Method**, only 1 table will feature during my project due to the smaller scope of the project itself. Because of this, the sole table is a **Must Have** part of the project. It will store each item with a unique identifier, as well as VARCHAR columns for the old and new names made for each person
 ![ERD](https://i.imgur.com/YDgi3RZ.png)
-### Use Case Diagram
 ### Service Architecture Diagram
 ![Overall Diagram](https://i.imgur.com/GWoEZnq.png)
 #### Service 1
 #### Service 2 + 3
 #### Service 4
-
 ## Risk Assessment
 ### Pre/Early Developement
 A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Similar to the previous project, this too can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1.xlsx). 
