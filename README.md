@@ -15,6 +15,7 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 3. [Architechure]()
     + [Entity Relationship Diagram]()
     + [Service Architecture Diagram]()
+    + [System Security]()
 4. [Risk Assessment]()
     + [Pre/Early Development]()
     + [After Project Completition]()
