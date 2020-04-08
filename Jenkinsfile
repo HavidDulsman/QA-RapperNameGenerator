@@ -1,6 +1,11 @@
 pipeline {
     agent any
     stages {
+        stage('Development environment'){
+            steps{
+                sh 'source ~/.bashrc'
+            }
+        }
         stage('Set up ansible' ){
             steps{
                 sh 'chmod +x ./script/*'
@@ -14,12 +19,6 @@ pipeline {
                 sh 'echo "Stack Service Deployed"'
             }
         }
-        stage('Development environment'){
-            steps{
-                sh './script/before_installation.sh'
-                sh './script/run.sh'
-                sh 'echo "Development environment created"'
-            }
-        }
+        
     }
 }
