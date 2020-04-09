@@ -37,13 +37,13 @@ def test_getresponse2():
     assert isinstance(r.text, str)
 
 def test_csv_service2():
-    for row in open("../service_2/application/first.txt"):
+    for row in open("/home/Admin/projects/RapperNameGenerator/service_2/application/first.txt"):
         coloumnlist = str(row)
         coloumnlist = coloumnlist.split(",")
     assert len(coloumnlist) == 25
 
 def test_csv_service3():
-    for row in open("../service_3/application/last.txt"):
+    for row in open("/home/Admin/projects/RapperNameGenerator/service_3/application/last.txt"):
         coloumnlist = str(row)
         coloumnlist = coloumnlist.split(",")
     assert len(coloumnlist) == 16
