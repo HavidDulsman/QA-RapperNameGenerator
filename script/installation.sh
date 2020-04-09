@@ -9,5 +9,3 @@ pip3 install flask_mysqldb
 pip3 install flask-bootstrap
 
 source ~/.bashrc
-
-python3 /var/lib/jenkins/workspace/rapper-pipeline/app.py
