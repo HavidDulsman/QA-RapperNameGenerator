@@ -3,6 +3,8 @@ import urllib3
 from flask import Flask, render_template, request
 import os
 from flask_mysqldb import MySQL
+import requests
+import csv
 
 app = Flask(__name__)
 
@@ -14,7 +16,7 @@ app.config['MYSQL_DB']=os.environ['MYSQLDB']
 mysql = MySQL(app)
 
 url = "http://34.89.30.20/"
-url2 = "http://35.246.119.11"
+url2 = "http://35.246.119.11/"
 
 def test_node_manager():
     http = urllib3.PoolManager()
@@ -30,9 +32,22 @@ def test_getresponse():
     r = requests.get(url2)
     assert isinstance(r.text, str)
 
-def test_getresponse():
+def test_getresponse2():
     r = requests.get(url)
     assert isinstance(r.text, str)
+
+def test_csv_service2():
+    for row in open("../service_2/application/first.txt"):
+        coloumnlist = str(row)
+        coloumnlist = coloumnlist.split(",")
+    assert len(coloumnlist) == 25
+
+def test_csv_service3():
+    for row in open("../service_3/application/last.txt"):
+        coloumnlist = str(row)
+        coloumnlist = coloumnlist.split(",")
+    assert len(coloumnlist) == 16
+
 
 # def test_sql_insert():
 #     with app.app_context():
