@@ -32,6 +32,10 @@ def test_getresponse():
     r = requests.get(url2)
     assert isinstance(r.text, str)
 
+def test_getresponse():
+    r = requests.get(url)
+    assert isinstance(r.text, str)
+
 # def test_sql_insert():
 #     with app.app_context():
 #         response = requests.get('http://end_product:5003/generated3')
