@@ -48,15 +48,15 @@ def test_csv_service3():
         coloumnlist = coloumnlist.split(",")
     assert len(coloumnlist) == 16
 
-
-# def test_sql_insert():
-#     with app.app_context():
-#         response = requests.get('http://end_product:5003/generated3')
-#         generatedname = response.text
-#         cur = mysql.connection.cursor()
-#         cur.execute("INSERT INTO entries(name_old, name_new) VALUES ('Mark', %s)", (generatedname))
-#         mysql.connection.commit()
-#         numEntries = cur.execute("SELECT * FROM entries")
-#         mysql.connection.commit()
-#         cur.close()
-#         assert 0 < numEntries
+def test_sql_insert():
+    with app.app_context():
+        cur = mysql.connection.cursor()
+        numRecordsOld = cur.execute("SELECT * FROM entries")
+        print(numRecordsOld)
+        cur.execute("INSERT INTO entries(name_old, name_new) VALUES ('Mark', 'Big Smoke');")
+        mysql.connection.commit()
+        numRecordsNew = cur.execute("SELECT * FROM entries")
+        print(numRecordsNew)
+        mysql.connection.commit()
+        cur.close()
+        assert numRecordsNew >= numRecordsOld
