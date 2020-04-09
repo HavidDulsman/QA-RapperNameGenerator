@@ -1,6 +1,6 @@
 #!/bin/bash
 source ~/.bashrc
-source venv/bin/activate
+source /var/lib/jenkins/workspace/rapper-pipeline/venv/bin/activate
 pip install coverage
 pip3 show coverage
 python3 -m coverage run -m pytest testing/test.py
