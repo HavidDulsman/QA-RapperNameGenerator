@@ -3,8 +3,6 @@ import urllib3
 from flask import Flask, render_template, request
 import os
 from flask_mysqldb import MySQL
-import requests
-
 
 app = Flask(__name__)
 
