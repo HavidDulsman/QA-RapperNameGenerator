@@ -8,6 +8,11 @@ pipeline {
                 sh './script/docker.sh'
             }
         }
+        stage('Testing Environment'){
+            steps{
+                sh './script/test.sh'
+            }
+        }
         
     }
 }
