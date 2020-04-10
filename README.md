@@ -24,13 +24,12 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 6. [Testing]()
     + [Pytest report]()
     + [Coverage report]()
-7. [How to setup]()
-8. [Comparison to Initial Design]()
-9. [Project retrospective]()
+7. [Comparison to Initial Design]()
+8. [Project retrospective]()
     + [Notable Achievements]()
     + [Project Shortcomings]()
     + [Future Improvements]()
-10. [Installation Guide]()
+9. [Installation Guide]()
 
 ## Brief
 As quoted from 'QAC - Practical Project Specification (DevOps):
@@ -74,7 +73,6 @@ As each of the services are completed, the branches can be discarded. The develo
 ![github branches](https://i.imgur.com/yUis66s.png)
 
 ## Architecture
-For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
 ### Entity Relationship Diagram
 One of the requirements for this project was to project the results of Service 4 into a SQl Database. Continuing with the **MoSCoW Method**, only 1 table will feature during my project due to the smaller scope of the project itself. Because of this, the sole table is a **Must Have** part of the project. It will store each item with a unique identifier, as well as VARCHAR columns for the old and new names made for each person
 ![ERD](https://i.imgur.com/YDgi3RZ.png)
@@ -97,16 +95,16 @@ Amongst this, we have also implemented stricter access to firewall rules, espcia
 
 ## Risk Assessment
 ### Pre/Early Developement
-A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Similar to the previous project, this too can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1.xlsx). 
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Similar to the previous project, this too can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/documentation/rapper_risk_1.xlsx). 
 
-Many of the same risks appear on this 'RA' as the last project, but some of the reasonings and values of each have changed due to a change in working environment.
+Many of the same risks appear on this risk assessmentas the last project, but some of the reasonings and values of each have changed due to a change in working environment. A **Risk Assessment Matrix** has been implememnted into both documents.
 
 ### After Project Completition 
-This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included. New items are highlighted in Yellow. Access via [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1_FINAL_COMMENTS.xlsx).
+This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included. New items are highlighted in Yellow. Access via [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/documentation/rapper_risk_1_FINAL_COMMENTS.xlsx).
 
 ## Deployment
 
-![Deployment pipeline diagram of use softwares](https://i.imgur.com/jYTQLgI.png)
+![Deployment pipeline diagram of use softwares](https://i.imgur.com/Bjo41HL.png)
 
 ### List of used technologies and languages
 * **GitHub:** Version Control System*
@@ -128,23 +126,29 @@ This version of the risk assessment includes the final review of each item and h
 
 *: Technologies and tools also used in the first project
 
-## How to Setup
-
 ## Comparisons to Original Design
 
 ## Project retrospective
 ### Notable Achievements
+### Effective use of Docker Swarm + Stack
+I was able to go beyond with Docker and implement a **Swarm Service** for my project, which would allow two or more node to connect with each other sharing containers and services between each other, improving the efficiency of the application. A **Stack Service** also allows me to quickly deploy my application on to any new or old nodes with all of the tools they need to operate.
+
+### NGINX Implementation
+With NGINX acting as the **reverse proxy server** for my application, this allows me to hide any exposed ip addresses so they are not visible to the public when pushed up to GitHub. This massively improved the security of my project and was relatively easy to implement.
+
+### Automation on multiple levels
+Automation was a strong point of my previous project, and i was happy to further advance this skill by improving on my use with the same tools with this project. A combination of **GitHub Webhooks** to my Jenkins server allow me to automate new builds of my project whenever it is pushed up to Github. This alongside detailed **Ansible Playbooks** and **Docker-Compose** files allow me implement the latest version of my project quickly and easily on and two machines with little configuration.
+
 ### Project Shortcomings
 #### Poor project scope
 As i had noting during the start of the project, this application would have been lighter with the focus being more on back-end automation and networking. Due to this, i was unable to expand my application in the later stages. I would have like to include some CRUD functionality, as well as some interesting styling and the project might be lacking due to their absense.
 
 #### More poor testing
-I went into this project looking to improve the test and coverage of this project compared to the previous, however i was able to only obtain a slight increase of **1%**, making the total 39%. This is quite disappointing, and has encouraged me to research better methods of testing, such as selenium for my 3rd and final project. You can see the full testing report using [this link]().
+I went into this project looking to improve the test and coverage of this project compared to the previous, however i was able to only obtain a slight increase of **1%**, making the total 39%. This is quite disappointing, and has encouraged me to research better methods of testing, such as selenium for my 3rd and final project. You can see the full testing report using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/testing/htmlcov/index.html).
 
 #### Inefficient security
 Enchancing the security of my VMs, ports and databases was very important to me during this project. I used my previous experience of database management to store sensitive values and data within the correct host files so that when i pushed this up to local repositories, my personal info wasnt viewable. Whilst i was able to achieve similar results with the local host manager node, the worker node was quite a challenge and thus had to be left out.
 
-#### 
 ### Future Improvements
 #### More use of nodes
 The project challenged me to make use of multiple nodes and addresses to balance the load and learn distributing traffic as well as the security behind all of these methods. Whilst i had demonstrated this with a **Manager** and **Worker** node each, i would have hoped to use more nodes to further demonstrate this way of thinking. 
