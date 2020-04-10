@@ -95,12 +95,12 @@ Amongst this, we have also implemented stricter access to firewall rules, espcia
 
 ## Risk Assessment
 ### Pre/Early Developement
-A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Similar to the previous project, this too can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1.xlsx). 
+A risk assessment was compiled to look and examine risk related to the project, its requirements and demands. Similar to the previous project, this too can be accessed through the repository or by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/documentation/rapper_risk_1.xlsx). 
 
 Many of the same risks appear on this risk assessmentas the last project, but some of the reasonings and values of each have changed due to a change in working environment. A **Risk Assessment Matrix** has been implememnted into both documents.
 
 ### After Project Completition 
-This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included. New items are highlighted in Yellow. Access via [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/developer/documentation/rapper_risk_1_FINAL_COMMENTS.xlsx).
+This version of the risk assessment includes the final review of each item and how it impacted the project if at all. Minor changes may also be included. New items are highlighted in Yellow. Access via [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/documentation/rapper_risk_1_FINAL_COMMENTS.xlsx).
 
 ## Deployment
 
