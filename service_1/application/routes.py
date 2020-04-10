@@ -38,3 +38,9 @@ def home():
                 cur.close()
         return render_template('home.html',generatedname = generatedname, title = 'Home')
 
+@app.route('/coverage')
+def coverage():
+        return render_template("/home/Admin/projects/RapperNameGenerator/testing/htmlcov/index.html")
+
+
+

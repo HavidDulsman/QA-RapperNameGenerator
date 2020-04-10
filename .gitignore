@@ -2,4 +2,3 @@ venv/
 
 testing/__pycache__
 testing/.pytest_cache
-testing/htmlcov/*
