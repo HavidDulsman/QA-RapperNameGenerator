@@ -68,9 +68,10 @@ sprint 1 stuff
 #### Future Sprint
 ![Future Sprint]()
 ### Feature Branch Model
-Building upon the feedback from my last project, i will be further utilising the feature branch system by incorporating branchs for each of the services. This not only allows me to effectively develop each service on its own, it also allows me to carefully manage the progression of each service. As there is only one of me developing this app, i might be of great use but allows me to prepare for a real world development environment
+Building upon the feedback from my last project, i plan on further utilising the feature branch system by incorporating branchs for each of the services. This not only allows me to effectively develop each service on its own, it also allows me to carefully manage the progression of each service. As there is only one of me developing this app, i might be of great use but allows me to prepare for a real world development environment
 ![branches](https://i.imgur.com/MAvhgQz.png)
 As each of the services are completed, the branches can be discarded. The developer branch however can be kept open however as more development can be made to the project outside of the live site if need be.
+![github branches](https://i.imgur.com/yUis66s.png)
 
 ## Architecture
 For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
@@ -136,6 +137,12 @@ This version of the risk assessment includes the final review of each item and h
 ### Project Shortcomings
 #### Poor project scope
 As i had noting during the start of the project, this application would have been lighter with the focus being more on back-end automation and networking. Due to this, i was unable to expand my application in the later stages. I would have like to include some CRUD functionality, as well as some interesting styling and the project might be lacking due to their absense.
+
+#### More poor testing
+I went into this project looking to improve the test and coverage of this project compared to the previous, however i was able to only obtain a slight increase of **1%**, making the total 39%. This is quite disappointing, and has encouraged me to research better methods of testing, such as selenium for my 3rd and final project. You can see the full testing report using [this link]().
+
+#### Inefficient security
+Enchancing the security of my VMs, ports and databases was very important to me during this project. I used my previous experience of database management to store sensitive values and data within the correct host files so that when i pushed this up to local repositories, my personal info wasnt viewable. Whilst i was able to achieve similar results with the local host manager node, the worker node was quite a challenge and thus had to be left out.
 
 #### 
 ### Future Improvements
