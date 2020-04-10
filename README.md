@@ -73,7 +73,6 @@ As each of the services are completed, the branches can be discarded. The develo
 ![github branches](https://i.imgur.com/yUis66s.png)
 
 ## Architecture
-For those have a cheeky look at my repo early, nothing here yet! Will it be big? Maybe. Maybe not.
 ### Entity Relationship Diagram
 One of the requirements for this project was to project the results of Service 4 into a SQl Database. Continuing with the **MoSCoW Method**, only 1 table will feature during my project due to the smaller scope of the project itself. Because of this, the sole table is a **Must Have** part of the project. It will store each item with a unique identifier, as well as VARCHAR columns for the old and new names made for each person
 ![ERD](https://i.imgur.com/YDgi3RZ.png)
