@@ -104,7 +104,7 @@ This version of the risk assessment includes the final review of each item and h
 
 ## Deployment
 
-![Deployment pipeline diagram of use softwares](https://i.imgur.com/jYTQLgI.png)
+![Deployment pipeline diagram of use softwares](https://i.imgur.com/Bjo41HL.png)
 
 ### List of used technologies and languages
 * **GitHub:** Version Control System*
