@@ -137,6 +137,7 @@ This version of the risk assessment includes the final review of each item and h
 Now that i have experience with Pytest, i was able to easily conduct tests of some of the core functions of my project, those being the **URLS of both nodes** to ensure each of them are hosting the application, the **SQL functionality** to prove i have connectivity to my SQL database, **getting responses from each service** and finally **cvs functionality**. the files containing the code for these tests can be accessed using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/testing/test.py)
 #### Code for each test type
 ![URL test](https://i.imgur.com/g07C6LD.png)
+![Response Test](https://i.imgur.com/7Zwr1Iq.png)
 ![CSV test](https://i.imgur.com/yCKNlrm.png)
 ![SQL Test](https://i.imgur.com/bYd363u.png)
 
@@ -145,8 +146,6 @@ Now that i have experience with Pytest, i was able to easily conduct tests of so
 
 ### Coverage Report
 This coverage report was made using a combination of the **Pytest** and **Coverage** tools for Python, and where displayed at the end of a Jenkins Pipeline build report. Alot of time was spent researching methods of improving the coverage from the previous project, even though a wider range of tests where conducted, i was still unable to drastically improve the testing coverage. Moving forward i will have to research new ways to test my project.
-
-![]
 
 ![coverage top]()
 ![coverage bottom]()
@@ -159,7 +158,7 @@ After consulting with my client after the last project, a new HTML template has 
 #### Project Planning and Development
 
 #### Architecture
-
+![table in SQL](https://i.imgur.com/po1QVwl.png)
 #### UI
 ### Previous Project
 
