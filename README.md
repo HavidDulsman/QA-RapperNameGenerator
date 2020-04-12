@@ -7,29 +7,29 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
 
 ## Table of Contents
 
-1. [Brief]()
-    + [Requirements]()
-2. [Project Plan]()
-    + [Kanban Board]()
-    + [Feature Branch Model]()
-3. [Architechure]()
-    + [Entity Relationship Diagram]()
-    + [Service Architecture Diagram]()
-    + [System Security]()
-4. [Risk Assessment]()
-    + [Pre/Early Development]()
-    + [After Project Completition]()
-5. [Deployment]()
-    + [List of techonologies used]()
-6. [Testing]()
-    + [Pytest report]()
-    + [Coverage report]()
-7. [Comparison to Initial Design]()
-8. [Project retrospective]()
-    + [Notable Achievements]()
-    + [Project Shortcomings]()
-    + [Future Improvements]()
-9. [Installation Guide]()
+1. [Brief](https://github.com/HavidDulsman/RapperNameGenerator#brief)
+    + [Requirements](https://github.com/HavidDulsman/RapperNameGenerator#requirements)
+2. [Project Plan](https://github.com/HavidDulsman/RapperNameGenerator#project-plan)
+    + [Kanban Board](https://github.com/HavidDulsman/RapperNameGenerator#kanban-board)
+    + [Feature Branch Model](https://github.com/HavidDulsman/RapperNameGenerator#feature-branch-model)
+3. [Architecture](https://github.com/HavidDulsman/RapperNameGenerator#architecture)
+    + [Entity Relationship Diagram](https://github.com/HavidDulsman/RapperNameGenerator#entity-relationship-diagram)
+    + [Service Architecture Diagram](https://github.com/HavidDulsman/RapperNameGenerator#service-architecture-diagram)
+    + [System Security](https://github.com/HavidDulsman/RapperNameGenerator#system-security)
+4. [Risk Assessment](https://github.com/HavidDulsman/RapperNameGenerator#risk-assessment)
+    + [Pre/Early Development](https://github.com/HavidDulsman/RapperNameGenerator#preearly-developement)
+    + [After Project Completition](https://github.com/HavidDulsman/RapperNameGenerator#after-project-completition)
+5. [Deployment](https://github.com/HavidDulsman/RapperNameGenerator#deployment)
+    + [List of techonologies used](https://github.com/HavidDulsman/RapperNameGenerator#list-of-used-technologies-and-languages)
+6. [Testing](https://github.com/HavidDulsman/RapperNameGenerator#testing)
+    + [Pytest report](https://github.com/HavidDulsman/RapperNameGenerator#pytest-functionality)
+    + [Coverage report](https://github.com/HavidDulsman/RapperNameGenerator#coverage-report)
+7. [Comparisons](https://github.com/HavidDulsman/RapperNameGenerator#comparisons)
+8. [Project retrospective](https://github.com/HavidDulsman/RapperNameGenerator#project-retrospective)
+    + [Notable Achievements](https://github.com/HavidDulsman/RapperNameGenerator#notable-achievements)
+    + [Project Shortcomings](https://github.com/HavidDulsman/RapperNameGenerator#project-shortcomings)
+    + [Future Improvements](https://github.com/HavidDulsman/RapperNameGenerator#future-improvements)
+9. [Installation Guide](https://github.com/HavidDulsman/RapperNameGenerator#installation-guide)
 
 ## Brief
 As quoted from 'QAC - Practical Project Specification (DevOps):
@@ -147,7 +147,9 @@ This coverage report was made using a combination of the **Pytest** and **Covera
 #### Coverage HTML template
 After consulting with my client after the last project, a new HTML template has been generated for the test. This is available by using [this link]()
 
-## Comparisons to Original Design
+## Comparisons
+### Initial Design
+### Previous Project
 
 ## Project retrospective
 ### Notable Achievements
