@@ -56,22 +56,30 @@ Once again, my project will utilise a kanban board to affectly produce a task ba
 
 The Project will also make use of the MoSCoW Prioritisation method to categorise the importance of tasks and features.
 #### Sprint 1:
-sprint 1 stuff
+For Sprint 1, we have first created suitable user stories to achieve the minimal viable product, as well as other things i would like to achieve personally. I mainly focused on starting the documentation and planning of the application, whilst using my experience with past projects to design tasks for the first service.
 ![Sprint 1](https://i.imgur.com/rZqK3tv.png)
 #### Sprint 2:
+Sprint 2 sees alot of the early design and documentation work being done, as well as alot of the easy tasks. I have opted to implement SQL at the very start of the project, as i believe i have good experience using databases and its inclusion from the start will be beneficial. Tasks for the other services where also made as development for service 1 continued.
 ![Sprint 2](https://i.imgur.com/EVWX4AT.png)
 #### Sprint 3:
+At this point we have the application running in some form via the soon-to-be manager node's address. During this stage i look to fully intergrate SQL now, as well as plan for the use of docker for the first time. Future tasks where added for jenkins but these wont be completed for sometime.
 ![Sprint 3](https://i.imgur.com/wbuzwte.png)
 #### Sprint 4:
+We now look to test our new docker swarm and stack features with our new system. These will take some time as Docker is a new tool for me and if i get it correct now, it will hopefully mean less errors will be encounters later on. Whilst i have some extra time with testing docker, i am looking to include NGINX into my project now, which will hopefully be easy to complete and help with the security of my project. We can also look into Ansible, a new tool required for the Minimal Viable Product.
 ![Sprint 4](https://i.imgur.com/YQSgzkm.png)
 #### Sprint 5:
+Sprint 5 sees rocky development with ansible, causing this sprint to last abit longer than previous. The first major bug/issue was also encountered during this stage as Ansible had some issues with identifying the keys of the manager node, which we where using. More NGINX testign was done to again ensure all was well, and i took a little bit of time to design the final jenkins related taks. I also changed one of the my own users storeis to 'Won't happen' as i believe i now have little time to mess around further with my project.
 ![Sprint 5](https://i.imgur.com/FJuSar6.png)
 #### Sprint 6:
+Sprint 6 saw most of ansible working and testing, with me now moving to connecting it all to a Jenkins CI pipeline and the related tasks to complete that. I also looked at some testing, as this was also part of the Minimal Viable Product.
 ![Sprint 6](https://i.imgur.com/nj2pZyG.png)
 #### Completition:
+At this point the Minimal Viable product is completed, with the app passing through jenkins and building each new version thanks to GitHub webhooks. There are still more tasks and user stories to cover, and these will be tackled if there is time after documententing and testing is completed.
 ![Completition](https://i.imgur.com/vteHLnY.png)
 #### Post-Completition Sprint
+I have designed some new tasks that will give my project some new CRUD functionality. I believe for an additional sprint after my project completition, this is achieveable in around **2 days**, as i have previous experience with creating functions like this from my previous project. **NOTE: This sprint was not completed and is only made to highlight potential changes after completition**
 ![Future Sprint](https://i.imgur.com/w6KhgoQ.png)
+
 ### Feature Branch Model
 Building upon the feedback from my last project, i plan on further utilising the feature branch system by incorporating branchs for each of the services. This not only allows me to effectively develop each service on its own, it also allows me to carefully manage the progression of each service. As there is only one of me developing this app, i might be of great use but allows me to prepare for a real world development environment
 ![branches](https://i.imgur.com/MAvhgQz.png)
