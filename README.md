@@ -160,6 +160,7 @@ After consulting with my client after the last project, a new HTML template has 
 #### Architecture
 ![table in SQL](https://i.imgur.com/po1QVwl.png)
 #### UI
+![looks](https://i.imgur.com/xbkMEhd.png)
 ### Previous Project
 
 ## Project retrospective
