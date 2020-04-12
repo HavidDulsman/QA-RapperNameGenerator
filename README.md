@@ -135,7 +135,12 @@ This version of the risk assessment includes the final review of each item and h
 ## Testing
 ### Pytest Functionality
 Now that i have experience with Pytest, i was able to easily conduct tests of some of the core functions of my project, those being the **URLS of both nodes** to ensure each of them are hosting the application, the **SQL functionality** to prove i have connectivity to my SQL database, **getting responses from each service** and finally **cvs functionality**. the files containing the code for these tests can be accessed using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/testing/test.py)
+#### Code for each test type
+![URL test](https://i.imgur.com/g07C6LD.png)
+![CSV test](https://i.imgur.com/yCKNlrm.png)
+![SQL Test](https://i.imgur.com/bYd363u.png)
 
+#### Pytest Report From Jenkins
 ![Pytest Report](https://i.imgur.com/Ym7gmPG.png)
 
 ### Coverage Report
@@ -151,6 +156,11 @@ After consulting with my client after the last project, a new HTML template has 
 
 ## Comparisons
 ### Initial Design
+#### Project Planning and Development
+
+#### Architecture
+
+#### UI
 ### Previous Project
 
 ## Project retrospective
