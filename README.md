@@ -25,6 +25,8 @@ This Project is due Week 8 of the QA Consultancy DevOps 17th February 2020 Intak
     + [Pytest report](https://github.com/HavidDulsman/RapperNameGenerator#pytest-functionality)
     + [Coverage report](https://github.com/HavidDulsman/RapperNameGenerator#coverage-report)
 7. [Comparisons](https://github.com/HavidDulsman/RapperNameGenerator#comparisons)
+    + [Initial Design](https://github.com/HavidDulsman/RapperNameGenerator#initial-design)
+    + [Previous Project](https://github.com/HavidDulsman/RapperNameGenerator#previous-project)
 8. [Project retrospective](https://github.com/HavidDulsman/RapperNameGenerator#project-retrospective)
     + [Notable Achievements](https://github.com/HavidDulsman/RapperNameGenerator#notable-achievements)
     + [Project Shortcomings](https://github.com/HavidDulsman/RapperNameGenerator#project-shortcomings)
