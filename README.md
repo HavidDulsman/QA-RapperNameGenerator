@@ -161,6 +161,8 @@ This coverage report was made using a combination of the **Pytest** and **Covera
 #### Coverage HTML template
 After consulting with my client after the last project, a new HTML template has been generated for the test. This is available by using [this link](https://github.com/HavidDulsman/RapperNameGenerator/blob/master/testing/htmlcov/index.html)
 
+![html preview](https://i.imgur.com/gyvu4FU.png)
+
 ## Comparisons
 ### Initial Design
 #### Project Planning and Development
