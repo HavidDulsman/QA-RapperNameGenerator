@@ -101,6 +101,14 @@ Once input has been made, Services 2 and 3 will be contacted. These are pretty m
 #### Service 4
 Service 4 will take the results of Service 2 and 3 and merge them together creating a unique result! this result is then referenced in Service 1 where it can be displayed for the user to see!
 ![S4](https://i.imgur.com/fIubh2M.png)
+### UI Design
+#### Minimal Viable Product
+As mentioned, the minimal required product for this project doesnt require too much fucntionality or style for the app and is suppost to be a test of my back-end management skills. For the first UI design, i have kept it very simple but also easy to read for the user, with results being very clear to the user. I have also opted to include my name and github link as a personal touch.
+![MVP diagram](https://i.imgur.com/S8lJqKA.png)
+#### End for End Product
+This is what the design would be like if all of the possible tasks and users stories are accomplished. Notice two new leaderboards, one for everyone and one for similar names to you. Topical images can also be used but i also quite like the simplistic style for this project.
+![End Product](https://i.imgur.com/f0FDF8C.png)
+
 ### System Security
 A massive focal point of this project was an emphasis on project security with various new tools and methods taught to allow us effectively hide certain information from others. With the introduction of **NGINX**, we are able to develop upstreams that listen for particular ports in use and redirect or hide them from the view of people outside our network. With port 5000 utilised by the front end service **(1)**, we must hide this from the viewing of outside users.
 
@@ -166,10 +174,13 @@ After consulting with my client after the last project, a new HTML template has 
 ## Comparisons
 ### Initial Design
 #### Project Planning and Development
-
+As you can see from the below image, the project had a very healthy lifecycle with a consistent flow of commits and progression on development, testing and documentation. 
+![commits](https://i.imgur.com/XrK1qBK.png)
 #### Architecture
+As all the entities designed where **must have**, all where included into the final design of the SQL table. Whilst there is only 1 table included, it includes all of the data validation and formatting needed for the app and also allows for possible expansion in the future thanks to clearly defined unique identifiers and easy to read columns.
 ![table in SQL](https://i.imgur.com/po1QVwl.png)
 #### UI
+Compared to the two UI renders done prior, the UI matches the style given for the minimal viable product as styling would not issues any additional marks. very light styling has been done to make text appear centered and/or highlighted to express important information, but otherwise there was little time at the end to focus on something so minor as styling.
 ![looks](https://i.imgur.com/xbkMEhd.png)
 ### Previous Project
 
