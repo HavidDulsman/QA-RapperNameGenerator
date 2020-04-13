@@ -226,6 +226,26 @@ If i had known earlier, I would have tried to implement more CRUD functionality 
 Yet again, i felt like the test portion of my project was lacking. I felt this time i might have been the simplicity of my project that might have been the reasoning. Selenium has been mentioned a couple of times since starting and i feel like if i learn how to use and implement it, it could have a massive impact into how i test the project.
 
 ## Installation Guide
+### Before Installation
+For this installation, you will need prior:
+* 2 or more webservers running Ubuntu 18.04 (I would recommend using cloud service providers such as Amazon Web Services or Azure)
+* a MySQL Server
+
+1. Generate SSH keys for each of your webservers. For assisstance, please follow [this link](https://www.ssh.com/ssh/keygen/)
+2. Link these SSH keys to the appropriate VM's, giving each of them linkage
+
+### Manager Node
+1. Install Jenkins onto the **machine you are planning to run as the manager**. For assisstance, please follow [this link](https://wiki.jenkins.io/display/JENKINS/Installing+Jenkins+on+Ubuntu)
+2. Download this repository to the **machine you are planning to run as the manager** using [this link](https://github.com/HavidDulsman/RapperNameGenerator/archive/master.zip]
+3. Configure your *inventory.cfg* file to match the credentials of your worker nodes. If more than 1 worker node is being used, feel free to add any more to your file.
+4. Enable Jenkins
+
+### Worker Node
+1. Apply to newly generated SSH keys of your manager user and Jenkins users into your worker VMs ssh key list. **NOTE:** This may vary depending on your cloud service provider
+2. Wait! If you have configured your manager node properly, the anisble playbook and docker-compose file include commands to install of the required tools and packages.
+    - if you are encountering an error, try installing docker to your worker node. See [this link](https://www.techrepublic.com/article/how-to-install-docker-on-ubuntu-16-04/) for more infomration.
+   
+If all of the steps have been done correctly, you should be able to run your ansible playbook and docker-compose files and everything should work fine! If you wish to configure the project to your own needs, feel free to download a copy and try yourself!
 
 ## Authors
 David Hulsman
