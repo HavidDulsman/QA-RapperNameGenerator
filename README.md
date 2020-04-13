@@ -179,11 +179,21 @@ As you can see from the below image, the project had a very healthy lifecycle wi
 #### Architecture
 As all the entities designed where **must have**, all where included into the final design of the SQL table. Whilst there is only 1 table included, it includes all of the data validation and formatting needed for the app and also allows for possible expansion in the future thanks to clearly defined unique identifiers and easy to read columns.
 ![table in SQL](https://i.imgur.com/po1QVwl.png)
+
+The project also closely follows its service and swarm model previously mentioned. See below as 3 replicas of each node is generated and distributed amongst 2 nodes. 
+![docker service](https://i.imgur.com/FpaoIVT.png)
+![docker manager node](https://i.imgur.com/QKBOeiw.png)
+![docker worker node](https://i.imgur.com/a4mspcT.png)
 #### UI
 Compared to the two UI renders done prior, the UI matches the style given for the minimal viable product as styling would not issues any additional marks. very light styling has been done to make text appear centered and/or highlighted to express important information, but otherwise there was little time at the end to focus on something so minor as styling.
 ![looks](https://i.imgur.com/xbkMEhd.png)
 ### Previous Project
+Compared to my previous project, there are many more backend functions espeically with regards networking and multiple nodes. However due to a much more limited time frame, as well as new working conditions, the current project doesnt have as many fleshed out features as the previous one. Whilst Workout accomplished full CRUD functionality, Rapper Name Generator accomplished on Create and Read. 
 
+One could make the arguement that both still feature impeccably for what they are trying to achieve, with the brief for the newer project being much limited than the other.
+![previous project](https://i.imgur.com/vBuoaQw.png)
+
+for information on my previous project **Workout**, please feel free to [follow this link](https://github.com/HavidDulsman/Workout)
 ## Project retrospective
 ### Notable Achievements
 ### Effective use of Docker Swarm + Stack
